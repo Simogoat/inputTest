@@ -1,0 +1,85 @@
+
+.all{
+    flex-grow: 1;
+    flex-basis: 200px;
+    flex-shrink: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+} 
+
+.log{
+    border: 2px solid black;
+    width: 466px;
+    height: 489px;
+    position: relative;
+     /* left: 500px;  */
+}
+
+.log h1{
+    text-align: center;
+}
+
+form .inTexe{
+    display: flex;
+    height: 200px;
+    width: 500px;
+}
+label{
+    font-size: 17px;
+}
+form .inTexe input,label{
+    position: relative;
+    left: -76px;
+    width: 423px;
+    height: 32px;
+    border-radius: 0 20px 0 0;
+}
+
+.radIn input{
+    border: 2px solid rgb(255, 0, 0);
+    position: relative;
+    left: 15px;
+    top: 20px;
+}
+.radIn label{
+
+    position: relative;
+    left: 13px;
+    top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    width: 136px;
+    height: 58px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 161px;
+    top: 83px;
+}
+
+a:hover{
+    background-color: rgb(200, 141, 255);
+}
+
+.cre{
+    border: 2px solid black;
+    width: 466px;
+    height: 200px;
+    position: relative;
+    /* left: 500px; */
+    display: flex;
+    top: 20px;
+    justify-content: space-between;
+}
+.cre img{
+    position: relative;
+    left: -10px;
+}
